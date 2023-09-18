@@ -1,0 +1,8 @@
+/* TrackList.css */
+.TrackList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* You can style individual track items here if needed */
+  

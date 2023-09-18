@@ -1,6 +1,6 @@
-.App {
+/*.App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+.App-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-search-bar {
+  margin-bottom: 20px;
+}
+
+.App-search-results,
+.App-playlist {
+  flex: 1;
+  margin: 0 20px;
+  
+}
+
+.SearchBar {
+  width: 350px; /* Adjust the width to your preferred size */
+}
+
+.CenteredContainer {
+  display: flex;
+  justify-content: center; /* Horizontally centers the children */
+  align-items: center; /* Vertically centers the children */
+}
+
+.SearchResults {
+  width: 50%;
+  float: left;
+}
+
+.NewPlaylist {
+  width: 35%; /* Adjust this width as needed */
+  float: left;
+}
+
+
+
+
+/* Add this to your App.css or a separate CSS file */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover; /* Make the background image cover the entire area */
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.error-message {
+  color: #1db954; /* Text color */
+  background-color: #fff; /* Background color */
+ 
+}
+
